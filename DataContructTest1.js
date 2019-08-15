@@ -1,0 +1,21 @@
+var xmlStr = `<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<rootVariable>
+	<variable>
+		<name>buildType</name>
+		<Type>INT</Type>
+	</variable>
+	<variable>
+		<name>status</name>
+		<Type>INT</Type>
+	</variable>
+	<variable>
+		<name>TestArray</name>
+		<Type>ARRAY</Type>
+		<variable>
+			<name>Elem1</name>
+			<Type>INT</Type>
+		</variable>
+	</variable>
+</rootVariable>
+</doc>`;

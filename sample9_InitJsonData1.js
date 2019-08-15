@@ -1,0 +1,1 @@
+{"Map1":[[1,100],[3,392]],"Map2":[[93,{"prop1":2019,"prop2":"testString123"}],[87,{"prop1":2010,"prop2":"testString345"}]],"prop3":"testJson0950","prop4":253}

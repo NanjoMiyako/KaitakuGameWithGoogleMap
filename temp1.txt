@@ -1,0 +1,17 @@
+AIzaSyDVm7YHt_QIEKhJg_v0qEZKF0OkZ5Jc0UM
+
+https://drive.google.com/open?id=1ovM-bmDWGXfRzCH5S24hIMCOXUneD58S
+
+-----------------------------
+google Drive
+
+OathクライアントID
+ID:697932331583-vq7akmcuucu8vmop0qvsngbvpjoedl97.apps.googleusercontent.com
+シークレット:KGJaLIkZTGjGNj9IUyaDLxFx
+
+APIキー:AIzaSyD8eIi5pddYS7ON8pzuHSIZx7pPJgz1lqo
+
+-------------------------------
+Google Wep appsのURL
+
+https://script.google.com/macros/s/AKfycbwc_0ZHf5XUeWzTxxLmSZ2efMLMybOMsKLfp-qd8hjz0MNaDbYR/exec
