@@ -471,10 +471,10 @@ function isEnableConvert(convert1, resultHaigouKouhoList){
 		return true;
 	}
 	
-	//使うfromResの種類のリストを配合の組み合わせが少ない順にソート
+	//使うfromResの種類のリストを配合の組み合わせが少ない順にソート(仕切り付き組み合わせの考え方から)
 	resList.sort( function(a, b){
-		var a_combiNum = CalcNumberOfCombination(needResVolMap_temp.get(a.resourceType), usingConcreteResTypeMap.get(a.resourceType)-1);
-		var b_combiNum = CalcNumberOfCombination(needResVolMap_temp.get(b.resourceType), usingConcreteResTypeMap.get(b.resourceType)-1);
+		var a_combiNum = CalcNumberOfCombination(needResVolMap_temp.get(a.resourceType), usingConcreteResTypeMap.get(a.resourceType).length-1);
+		var b_combiNum = CalcNumberOfCombination(needResVolMap_temp.get(b.resourceType), usingConcreteResTypeMap.get(b.resourceType).length-1);
 		if( a_combiNum < b_combiNum){
 			return -1;
 		}

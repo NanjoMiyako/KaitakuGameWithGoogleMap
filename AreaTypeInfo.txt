@@ -1,0 +1,21 @@
+//AreaTypeInfoのコンストラクタ等
+
+//全エリア情報のリスト
+g_AreaTypeInfoList = []
+
+//クラスのコンストラクタ関係
+//Areaのコンストラクタ
+function AreaTypeInfo(areaType, buildTypeList){
+	this.areaType = areaType;
+	this.anableConstructBuildTypeList;
+ 
+}
+
+function GetAreaTypeInfoByAreaType(areaType){
+	for(var i=0; i<g_AreaTypeInfoList.length; i++){
+		if(g_AreaTypeInfoList[i].areaType == areaType){
+			return g_AreaTypeInfoList[i];
+		}
+	}
+	return null;
+}
