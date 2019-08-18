@@ -1524,6 +1524,11 @@ function DisplayToolListTable(toolList1){
 
 }
 
+//建物建設タブの表示
+function DisplayConstructionBuildingTab(){
+
+}
+
 //リソース一覧タブの表示
 function DisplayResourceListTab(){	
 	//'資源名リスト'欄のオートコンプリート設定
@@ -2239,6 +2244,8 @@ function DisplayTab(tabNm){
 		DisplayOwnedToolListTab()
 	}else if(tabNm == TAB_NAME_TOOL_LIST){
 		DisplayToolListTab();
+	}else if(tabNm == TAB_NAME_CONSTRUCT_BUILDING){
+		DisplayConstructionBuildingTab();
 	}
 
 	var tabElem1 = document.getElementById(tabNm);

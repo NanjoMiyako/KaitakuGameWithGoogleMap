@@ -19,6 +19,7 @@ const TAB_NAME_BUILDING_LIST = "tab_BuildingList";
 const TAB_NAME_VARIOUS_OPE = "tab_VariousOperation";
 const TAB_NAME_CONVERSION_SETTING = "tab_ConversionSettings";
 const TAB_NAME_RESOURCE_LIST ="tab_ResourceList";
+const TAB_NAME_CONSTRUCT_BUILDING = "tab_ConstructBuilding";
 const TAB_NAME_BUILDING_DETAIL_LIST = "tab_BuildingDetailList";//各建物の詳細タブ(hidden)
 const TAB_NAME_MANUALLY_CONVERT = "tab_ManuallyConvert"; //手動変換タブ(hidden)
 const TAB_NAME_SELECT_MANUALLY_CONVERT_TYPE = "tab_SelectManuallyConvertType";//手動変換タイプ選択タブ(hidden)
